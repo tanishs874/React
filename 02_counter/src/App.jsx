@@ -13,7 +13,7 @@ function App() {
     setCounter(prevcounter => prevcounter+1)
     setCounter(prevcounter => prevcounter+1)
     setCounter(prevcounter => prevcounter+1)
-    setCounter(prevcounter => prevcounter+1)
+    setCounter(prevcounter => prevcounter+1) 
     // setCounter(counter+1)
     // setCounter(counter+1)
     // setCounter(counter+1)
