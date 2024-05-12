@@ -9,7 +9,15 @@ function App() {
  const addValue = ()=>{
   // counter = counter+1
   if(counter<20){
-    setCounter(counter+1)
+    // If we want to increase the value by 4 at once this is how you can do you cannot do directly like setCounter(counter+1)
+    setCounter(prevcounter => prevcounter+1)
+    setCounter(prevcounter => prevcounter+1)
+    setCounter(prevcounter => prevcounter+1)
+    setCounter(prevcounter => prevcounter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
   }
  }
 
